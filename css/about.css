@@ -1,0 +1,73 @@
+.about-page {
+  padding: 100px 0;
+}
+
+.about-layout,
+.about-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.about-layout h2,
+.about-columns h2,
+.contact-note h2 {
+  color: var(--gold);
+  font-size: 46px;
+  margin-bottom: 25px;
+}
+
+.about-layout p,
+.about-list p {
+  font-size: 21px;
+  line-height: 1.8;
+  color: var(--cream);
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-list p {
+  border-bottom: 1px solid rgba(200, 164, 93, .3);
+  padding-bottom: 18px;
+}
+
+.quote-section {
+  padding: 110px 0;
+  background:
+    linear-gradient(rgba(0,0,0,.76), rgba(0,0,0,.76)),
+    url("../images/hero/baroque-room.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+blockquote {
+  max-width: 900px;
+  margin: 0 auto;
+  color: var(--gold);
+  font-size: 42px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contact-note {
+  text-align: center;
+  max-width: 800px;
+}
+
+.contact-note p {
+  font-size: 22px;
+  color: var(--cream);
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.note-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

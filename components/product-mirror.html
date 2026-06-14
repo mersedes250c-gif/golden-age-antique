@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Барочное зеркало — Золотой Век</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/product.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="../index.html" class="logo">
+      <img src="../images/logo/logo.png" alt="Золотой Век">
+    </a>
+
+    <nav class="nav">
+      <a href="../index.html">Главная</a>
+      <a href="../catalog.html">Каталог</a>
+      <a href="../services.html">Услуги</a>
+      <a href="../appraisal.html">Оценка</a>
+      <a href="../about.html">О нас</a>
+      <a href="../blog.html">Блог</a>
+      <a href="../contacts.html">Контакты</a>
+    </nav>
+
+    <a href="../appraisal.html" class="btn btn-gold">Заказать оценку</a>
+  </div>
+</header>
+
+<main>
+
+<section class="product-page">
+  <div class="container product-layout">
+
+    <div class="product-gallery">
+      <div class="main-photo">
+  <img id="mainImage"
+       src="../images/products/mirror-1.jpg"
+       alt="Барочное зеркало">
+</div>
+
+     <div class="thumbs">
+
+  <div>
+    <img src="../images/products/mirror-1.jpg"
+         onclick="changeImage(this.src)"
+         alt="Зеркало общий вид">
+  </div>
+
+  <div>
+    <img src="../images/products/mirror-2.jpg"
+         onclick="changeImage(this.src)"
+         alt="Зеркало под углом">
+  </div>
+
+  <div>
+    <img src="../images/products/mirror-3.jpg"
+         onclick="changeImage(this.src)"
+         alt="Детали рамы">
+  </div>
+
+</div>
+    
+
+    <div class="product-details">
+      <p class="section-subtitle">Предмет коллекции</p>
+
+      <h1>Барочное зеркало в золочёной раме</h1>
+
+      <p class="product-intro">
+        Декоративное зеркало с выразительной золочёной рамой,
+        резными элементами и роскошным силуэтом в стиле барокко.
+      </p>
+
+      <div class="price">Цена по запросу</div>
+
+      <table class="specs">
+        <tr><td>Эпоха</td><td>XIX век</td></tr>
+        <tr><td>Страна</td><td>Франция</td></tr>
+        <tr><td>Материал</td><td>Дерево, золочение, зеркало</td></tr>
+        <tr><td>Стиль</td><td>Барокко / рококо</td></tr>
+        <tr><td>Состояние</td><td>Хорошее</td></tr>
+        <tr><td>Наличие</td><td>В салоне</td></tr>
+      </table>
+
+      <a href="../contacts.html" class="btn btn-gold">
+        Запросить стоимость
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section class="section burgundy">
+  <div class="container">
+    <p class="section-subtitle">Описание</p>
+
+    <h2>Зеркало как главный акцент интерьера</h2>
+
+    <p class="text-large">
+      Зеркало в золочёной раме подчёркивает торжественность пространства
+      и хорошо подходит для классического интерьера, гостиной, кабинета
+      или антикварной коллекции. Резной декор делает предмет выразительным
+      центром композиции.
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>Золотой Век</h3>
+      <p>Антикварный салон в Калининграде</p>
+    </div>
+
+    <div>
+      <h4>Контакты</h4>
+      <p>Куйбышева 11А</p>
+      <p>+7 (911) 481-98-86</p>
+      <p>yulcha_reshetnik@mail.ru</p>
+    </div>
+
+    <div>
+      <h4>Навигация</h4>
+      <p>Каталог</p>
+      <p>Оценка</p>
+      <p>Услуги</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Антикварный салон «Золотой Век»
+    <br>
+    Дизайн и разработка — Юлия Решетникова
+  </div>
+</footer>
+<script>
+function changeImage(src){
+  document.getElementById('mainImage').src = src;
+}
+</script>
+<a href="https://wa.me/79114819886" class="whatsapp-button" target="_blank">
+  WhatsApp
+</a>
+</body>
+</html>

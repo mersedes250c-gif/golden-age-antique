@@ -1,0 +1,130 @@
+.contacts-page {
+  padding: 90px 0;
+}
+
+.contacts-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.contacts-info {
+  border: 1px solid rgba(200, 164, 93, .4);
+  padding: 40px;
+  background: rgba(255,255,255,.03);
+}
+
+.contacts-info h2,
+.contact-form-large h2,
+.map-section h2 {
+  color: var(--gold);
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  border-bottom: 1px solid rgba(200, 164, 93, .25);
+  padding: 20px 0;
+}
+
+.contact-item span {
+  display: block;
+  color: var(--gold);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.contact-item p {
+  color: var(--cream);
+  font-size: 21px;
+}
+
+.contact-item a {
+  color: var(--cream);
+}
+
+.messengers {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.contact-form-large{
+  border:1px solid rgba(200,164,93,.4);
+  padding:40px;
+
+  background:
+  linear-gradient(
+    180deg,
+    rgba(34,17,17,.95),
+    rgba(17,17,17,.95)
+  );
+}
+
+.map-section {
+  padding: 90px 0;
+  background: #0d0d0d;
+}
+
+.map-frame {
+  border: 1px solid rgba(200, 164, 93, .45);
+  padding: 8px;
+  background: var(--black);
+}
+
+.map-frame iframe {
+  display: block;
+}
+.contact-form-large form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.contact-form-large input,
+.contact-form-large textarea{
+    width:100%;
+    padding:16px 18px;
+
+    background:#111;
+    color:var(--cream);
+
+    border:1px solid rgba(200,164,93,.45);
+    font-family:inherit;
+    font-size:17px;
+    outline:none;
+}
+
+.contact-form-large input:focus,
+.contact-form-large textarea:focus{
+    border-color:var(--gold);
+    box-shadow:0 0 18px rgba(200,164,93,.18);
+}
+
+.contact-form-large textarea{
+    min-height:140px;
+    resize:vertical;
+}
+
+.contact-form-large input::placeholder,
+.contact-form-large textarea::placeholder{
+    color:rgba(245,233,211,.65);
+}
+.contact-form-large{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.contact-form-large input,
+.contact-form-large textarea{
+    width:100%;
+    box-sizing:border-box;
+}
+.contact-form-large .btn{
+    width:fit-content;
+    min-width:240px;
+}

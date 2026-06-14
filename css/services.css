@@ -1,0 +1,100 @@
+.services-page {
+  padding: 90px 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.service-card {
+  border: 1px solid rgba(200, 164, 93, .4);
+  background: rgba(255,255,255,.03);
+  padding: 34px;
+  min-height: 360px;
+}
+
+.service-card span {
+  display: block;
+  color: var(--gold);
+  font-size: 34px;
+  margin-bottom: 18px;
+}
+
+.service-card h2 {
+  color: var(--gold);
+  font-size: 31px;
+  margin-bottom: 18px;
+}
+
+.service-card p {
+  color: var(--cream);
+  line-height: 1.7;
+  font-size: 18px;
+  margin-bottom: 26px;
+}
+
+.process-block h2,
+.contact-note h2 {
+  color: var(--gold);
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+.process-steps div {
+  border: 1px solid rgba(200, 164, 93, .35);
+  padding: 30px;
+  background: rgba(0,0,0,.18);
+}
+
+.process-steps span {
+  display: block;
+  color: var(--gold);
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.process-steps p {
+  color: var(--cream);
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.contact-note {
+  text-align: center;
+  max-width: 820px;
+}
+
+.contact-note p {
+  color: var(--cream);
+  font-size: 22px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.note-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 1000px) {
+  .services-grid,
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid,
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фарфоровая ваза — Золотой Век</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/product.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="../index.html" class="logo">
+      <img src="../images/logo/logo.png" alt="Золотой Век">
+    </a>
+
+    <nav class="nav">
+      <a href="../index.html">Главная</a>
+      <a href="../catalog.html">Каталог</a>
+      <a href="../services.html">Услуги</a>
+      <a href="../appraisal.html">Оценка</a>
+      <a href="../about.html">О нас</a>
+      <a href="../blog.html">Блог</a>
+      <a href="../contacts.html">Контакты</a>
+    </nav>
+
+    <a href="../appraisal.html" class="btn btn-gold">Заказать оценку</a>
+  </div>
+</header>
+
+<main>
+
+<section class="product-page">
+  <div class="container product-layout">
+
+    <div class="product-gallery">
+      <div class="main-photo">
+  <img id="mainImage"
+       src="../images/products/vase-1.jpg"
+       alt="Фарфоровая ваза">
+</div>
+
+      <div class="thumbs">
+
+  <div>
+    <img src="../images/products/vase-1.jpg"
+         onclick="changeImage(this.src)"
+         alt="Ваза общий вид">
+  </div>
+
+  <div>
+    <img src="../images/products/vase-2.jpg"
+         onclick="changeImage(this.src)"
+         alt="Ваза боковой ракурс">
+  </div>
+
+  <div>
+    <img src="../images/products/vase-3.jpg"
+         onclick="changeImage(this.src)"
+         alt="Детали вазы">
+  </div>
+
+</div>
+
+    <div class="product-details">
+      <p class="section-subtitle">Предмет коллекции</p>
+
+      <h1>Фарфоровая ваза XIX века</h1>
+
+      <p class="product-intro">
+        Изящная фарфоровая ваза с кобальтовым покрытием, золочёным декором
+        и тонкой ручной росписью в классической европейской манере.
+      </p>
+
+      <div class="price">Цена по запросу</div>
+
+      <table class="specs">
+        <tr>
+          <td>Эпоха</td>
+          <td>XIX век</td>
+        </tr>
+
+        <tr>
+          <td>Страна</td>
+          <td>Франция</td>
+        </tr>
+
+        <tr>
+          <td>Материал</td>
+          <td>Фарфор, золочение</td>
+        </tr>
+
+        <tr>
+          <td>Стиль</td>
+          <td>Барокко / рококо</td>
+        </tr>
+
+        <tr>
+          <td>Состояние</td>
+          <td>Хорошее</td>
+        </tr>
+
+        <tr>
+          <td>Наличие</td>
+          <td>В салоне</td>
+        </tr>
+      </table>
+
+      <a href="../contacts.html" class="btn btn-gold">
+        Запросить стоимость
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<section class="section burgundy">
+  <div class="container">
+    <p class="section-subtitle">Описание</p>
+
+    <h2>Фарфор с изысканной ручной росписью</h2>
+
+    <p class="text-large">
+      Ваза украшена кобальтовым фоном, золочёными орнаментами и живописными
+      медальонами. Такой предмет подойдёт для классического интерьера,
+      коллекции фарфора или декоративного акцента в премиальном пространстве.
+    </p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+
+  <div class="container footer-grid">
+
+    <div>
+      <h3>Золотой Век</h3>
+      <p>Антикварный салон в Калининграде</p>
+    </div>
+
+    <div>
+      <h4>Контакты</h4>
+      <p>Куйбышева 11А</p>
+      <p>+7 (911) 481-98-86</p>
+      <p>yulcha_reshetnik@mail.ru</p>
+    </div>
+
+    <div>
+      <h4>Навигация</h4>
+      <p>Каталог</p>
+      <p>Оценка</p>
+      <p>Услуги</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Антикварный салон «Золотой Век»
+    <br>
+    Дизайн и разработка — Юлия Решетникова
+  </div>
+
+</footer>
+<script>
+function changeImage(src){
+  document.getElementById('mainImage').src = src;
+}
+</script>
+<a href="https://wa.me/79114819886" class="whatsapp-button" target="_blank">
+  WhatsApp
+</a>
+</body>
+</html>
